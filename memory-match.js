@@ -25,7 +25,7 @@ var hours = 0, minutes = 0, seconds = 0;
 
 var playedWordsSet = new Set(); //Words which are played on different levels
 
-/* Get words by callin an API */
+/* Get words by calling an API */
 
 function getWords() {
     fetch(url).then(function (response) {
