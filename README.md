@@ -3,7 +3,7 @@ Game which allows user to find the word
 
 ## Playing the game
 
-1.Click [here](https://github.com/MahantheshS/find-word-game.git) to play the game
+1.Click [here](https://github.com/MahantheshS/find-word-game) to play the game
 
 2.A game board which consists of 16 letters wii be loaded
 
