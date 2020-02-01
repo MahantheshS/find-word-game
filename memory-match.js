@@ -1,13 +1,13 @@
-const url = 'https://raw.githubusercontent.com/words/an-array-of-english-words/master/words.json';
+//const url = 'https://raw.githubusercontent.com/words/an-array-of-english-words/master/words.json';
 
 const NUMBER_OF_CARDS = 16; //Number of cards to be displayed on game board
 var cards;
 var timerInterval;
 
-
-/*const words = ['GOD', 'INFOSYS', 'GOOD', 'PRODUCT', 'LANDT', 'LUNCH', 'FRIENDS',
-    'COCONUT', 'FLOWER', 'BAT', 'BALL', 'DUCK', 'PEACOCK', 'PEN', 'PENCIL', 'TRY', 'CATCH', 'XEROX', 'BEAUTIFUL', 'TEMPARATURE'];*/
-var words; //Words which populate on Game Board
+//Words which populate on Game Board
+const words = ['GOD', 'INFOSYS', 'GOOD', 'PRODUCT', 'LANDT', 'LUNCH', 'FRIENDS',
+    'COCONUT', 'FLOWER', 'BAT', 'BALL', 'DUCK', 'PEACOCK', 'PEN', 'PENCIL', 'TRY', 'CATCH', 'XEROX', 'BEAUTIFUL', 'TEMPARATURE'];
+//var words; 
 //const words = ['A', 'E', 'I', 'O', 'U'];
 
 const alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
@@ -25,7 +25,7 @@ var hours = 0, minutes = 0, seconds = 0;
 
 var playedWordsSet = new Set(); //Words which are played on different levels
 
-/* Get words by calling an API */
+/* Get words by calling an API 
 
 function getWords() {
     fetch(url).then(function (response) {
@@ -37,6 +37,7 @@ function getWords() {
         console.log("Error in fetching words from API...");
     });
 }
+*/
 
 /* Loads card on game board */
 
